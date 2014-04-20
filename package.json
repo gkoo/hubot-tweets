@@ -1,0 +1,33 @@
+{
+  "name": "hubot-tweets",
+  "version": "0.0.1",
+  "description": "A Hubot script for creating and searching for tweets",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gkoo/hubot-tweets.git"
+  },
+  "keywords": [
+    "hubot",
+    "twitter",
+    "tweet",
+    "tweets"
+  ],
+  "author": "Gordon Koo <gordon@gordonkoo.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gkoo/hubot-tweets/issues"
+  },
+  "dependencies": {
+    "coffee-script": "~1.6",
+    "twit": "1.1.x"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "chai": "*",
+    "sinon-chai": "*",
+    "sinon": "*"
+  },
+  "scripts": {
+    "test": "script/test"
+  }
+}
